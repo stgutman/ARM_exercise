@@ -9,15 +9,15 @@ int main ()
 	int offset = 0;
 	
 	int bits[2];     // This is our bit array (32×2 = 64 bits !)
-    int i;
+    	int i;
     
-    for ( i = 0; i < 2; i++ )
+    	for ( i = 0; i < 2; i++ )
 		bits[i] = 0;                    // Clear the bit array            
     
-    SetBit( bits, 0 );
+    	SetBit( bits, 0 );
 	SetBit( bits, 1 );  	
-    SetBit( bits, 3 );
-    SetBit( bits, 5 );
+    	SetBit( bits, 3 );
+    	SetBit( bits, 5 );
 	SetBit( bits, 7 );
 	SetBit( bits, 9 );
 	
