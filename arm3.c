@@ -28,7 +28,7 @@ int main ()
 int count_ones(int *pointer_to_memory, int size_of_stream_in_bits){
 	int i;
 	int number_of_ones=0;
-	for(i=0; i<size_of_stream_in_bits; i++){
+	for(i=size_of_stream_in_bits+1; i!=0; --i){
 		if(TestBit(pointer_to_memory,i))
 			number_of_ones++;
 	}
